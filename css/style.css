@@ -180,7 +180,6 @@ ul, li {
   font-size: 56px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #f39ac7;
 }
 
 .section .section-desc {
@@ -268,14 +267,14 @@ ul, li {
 }
 
 /*--------------------------------
-　About
+　profile
 ---------------------------------*/
 
-#about .two-column-image {
+#profile .two-column-image {
   width: 33%;
 }
 
-#about .two-column-desc {
+#profile .two-column-desc {
   width: 62%;
 }
 
@@ -522,16 +521,16 @@ ul, li {
   #works .card-caption-info {
     font-size: 11px;
   }
-  #about .two-column-wrapper {
+  #profile .two-column-wrapper {
     width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  #about .two-column-image {
+  #profile .two-column-image {
     width: 50%;
     margin: 0 auto 20px;
   }
-  #about .two-column-desc {
+  #profile .two-column-desc {
    width: 100%;
  }
 

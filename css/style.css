@@ -42,13 +42,13 @@ img, video, object {
 ul, li {
   list-style: none;
 }
-
 /*--------------------------------
 　全体
 ---------------------------------*/
 
 #wrapper {
-  background-color: #f3f3f3;
+  background: url('../img/bg.jpg') fixed;
+  background-size: cover;
 }
 
 .inner {
@@ -117,6 +117,7 @@ ul, li {
 ---------------------------------*/
 
 #gnav {
+  background-color: #f3f3f3;
   padding: 10px;
   font-family: 'Open sans', sans-serif;
   z-index: 100;
@@ -144,8 +145,23 @@ ul, li {
 }
 
 #gnav li a {
-  color: #333;
+  color: #fff;
   letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  width: 110px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #afa58d;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.button-orange {
+  background-color: #f1b400;
 }
 
 #gnav.fixed {
@@ -163,6 +179,9 @@ ul, li {
 /*--------------------------------
 　Section
 ---------------------------------*/
+.section {
+  background-color: #f3f3f3;
+}
 
 .section .inner {
   padding: 80px 10px;
@@ -227,6 +246,11 @@ ul, li {
 /*--------------------------------
 　WORKS
 ---------------------------------*/
+
+#works {
+  background-color: #383634;
+  color: #fff;
+}
 
 #works .card {
   width: 32%;
@@ -309,9 +333,9 @@ ul, li {
   justify-content: space-between;
 }
 
-#skill .card:first-child {
+/* #skill .card:first-child {
   flex-basis: 100%;
-}
+} */
 
 #skill .skill-icon {
   flex-basis: 75px;
@@ -381,6 +405,11 @@ ul, li {
  CONTACT
 ---------------------------------*/
 
+#contact{
+  background-color: rgba(25, 25, 120, 0.9);
+  color: #fff;
+}
+
 #contact .contact-list {
   padding: 20px 0;
 }
@@ -405,7 +434,7 @@ ul, li {
 }
 
 #contact .contact-list li a {
-  color: #333;
+  color: #fff;
 }
 
 #contact .contact-list li img {
@@ -466,7 +495,9 @@ ul, li {
     line-height: 1.7;
   }
   #header {
+    background-color: rgba(25, 25, 120, 0.9);
     height: 200px;
+    background-size: cover;
   }
   #header .logo-title {
     font-size: 56px;

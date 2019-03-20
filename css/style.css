@@ -625,9 +625,10 @@ ul, li {
     margin-bottom: 5px;
   }
   .button {
-    width: 70px;
-    font-size: 0.7em;
+    width: 65px;
+    font-size: 0.8em;
     margin: 0 0 5px 0;
+      padding: 10px 5px;
     }
   }
 }

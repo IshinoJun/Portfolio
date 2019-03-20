@@ -624,3 +624,10 @@ ul, li {
     padding: 0 10px;
     margin-bottom: 5px;
   }
+  .button {
+    width: 70px;
+    font-size: 0.7em;
+    margin: 0 0 5px 0;
+    }
+  }
+}
